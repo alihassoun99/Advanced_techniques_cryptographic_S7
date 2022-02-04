@@ -6,6 +6,8 @@
     Certaines méthodes sont complètes et servent d'exemple.
     Les autres méthodes doivent être complétées.
 
+
+
     Les trois classes à compléter sont:
         - Pgcd: Touche le calcul du pgcd et contient trois méthodes de calcul:
             + pgcd_euclide(a, b), la méthode traditionnelle (cette méthode est déjà codée dans PgcdBase)
