@@ -95,7 +95,7 @@ class Pgcd(labo_config.PgcdBase):
 
         if a == b:
             res = a
-        return a
+        return res
 
 
 class PowerMod(labo_config.PowerModBase, labo_config.UtilFuncs):
