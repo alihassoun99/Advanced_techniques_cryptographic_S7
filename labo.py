@@ -73,17 +73,18 @@ class Pgcd(labo_config.PgcdBase):
         # voir si les chiffre sont impaire ou il y as un entre eux est pair
         # est ce qu'il est pair ? => x mod(2) = 0 alors x est pair
 
-        #print(" a = ", a)
-        #print(" b = ", b)
+
 
         while a != b:  # quand on arrive a a = b alors on obtient le pgcd
             if a % 2 == 0:
                 # print("a est pair")
+
                 a = a >> 1  # divider le nb sur 2
             if b % 2 == 0:
                 # print("b est pair")
                 b = b >> 1  # diviser le nb sur 2
             if b % 2 != 0 and a % 2 != 0:
+
                 # print("a et b sont impair")
                 if a > b:
                     a = a - b  # faire une soustraction du plus grand nb
